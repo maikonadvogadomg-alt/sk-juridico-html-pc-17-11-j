@@ -18,9 +18,9 @@
     "electron-builder": "25.1.8"
   },
   "build": {
-    "appId": "com.maikon.skjuridico.html.pc",
-    "productName": "SK Jurídico HTML",
-    "executableName": "SKJuridicoHTML",
+    "appId": "com.maikon.skjuridico.html.pc.njuridico",
+    "productName": "SK Jurídico HTML (Jurídico)",
+    "executableName": "SKJuridicoHTML-njuridico",
     "directories": {
       "output": "release"
     },
@@ -42,13 +42,13 @@
       "perMachine": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "SK Jurídico HTML",
-      "artifactName": "SKJuridicoHTML-Instalar.exe",
+      "shortcutName": "SK Jurídico HTML (Jurídico)",
+      "artifactName": "SKJuridicoHTML-njuridico-Instalar.exe",
       "include": "electron/instalar.nsh"
     },
     "portable": {
-      "artifactName": "SKJuridicoHTML-sem-instalar.exe"
+      "artifactName": "SKJuridicoHTML-njuridico-sem-instalar.exe"
     }
   },
-  "portaDoPrograma": 7720
+  "portaDoPrograma": 9477
 }
